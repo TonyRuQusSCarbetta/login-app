@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- character set -->
+  <meta charset="utf-8">
+  <!-- title -->
+  <title>Title</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- FONT AWESOME CSS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- HOVER ANIMATIONS -->
+  <link rel="stylesheet" href="css/hover-min.css">
+  <!-- list of hover effects http://ianlunn.github.io/Hover/#effects -->
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="jumbotron text-center bg-success text-light"><h1>Log In App</h1></div>
+  </header>
+  <div class="container-fluid">
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-md-6">
+    <input type="text" id="userInput" class="border border-success w-100"><br>
+    <button type="button" onclick="logIn()" class="mx-auto text-center btn btn-success mx-auto w-100">Log In (enter your first name)</button>
+
+    <div class="col-md-6 offset-3">
+    <!-- ID for log in info -->
+    <div><h4 id="loggedIn" class="text-center"></h4></div>
+    <!-- ID for not logged in info -->
+    <div><h4 id="notLoggedIn" class="text-center"></h4></div>
+    </div>
+  </div>
+  </div>
+
+  <p class="text-center mt-2">New Users<br>Register Below</p>
+
+  <div class="row mt-2 mb-2 ml-5 mr-5">
+  <div class="col-md-6 offset-3">
+
+  <input type="text" id="userInput1" class="border border-success w-100"><br>
+  <button type="button" onclick="register()" class="mx-auto text-center btn btn-success mx-auto w-100">Register (enter your first name)</button>
+
+
+  <div class="col-md-6 offset-3">
+  <!-- ID for log in info -->
+  <div><h4 id="newRegister" class="text-center"></h4></div>
+
+  </div>
+  </div>
+
+  </div>
+
+  <!-- Main external JS -->
+  <script src="js/main.js"></script>
+  <!-- BOOTSTRAP jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP Popper  CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
